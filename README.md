@@ -1,6 +1,5 @@
 # IAS FROM HOME - Assets
-**[https://iasfromhome.github.io/assets/]
-(https://iasfromhome.github.io/assets/)**
+**https://iasfromhome.github.io/assets/**
 इस repository में Progressive Web App (PWA) के लिए आवश्यक सभी assets संग्रहीत हैं, जैसे:
 
 - `manifest.json` – ऐप की पहचान और behavior सेट करता है
