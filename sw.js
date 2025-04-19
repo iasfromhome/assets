@@ -1,12 +1,12 @@
-const CACHE_NAME = 'trial-cache-v0';
+const CACHE_NAME = 'trial-cache-v0a';
 
 // जरूरी फाइलें जो offline काम करें
 const urlsToCache = [
-  '/p/home.html', // home tab
-  '/p/current-samachar.html', // current tab
-  '/p/courses-library.html', // course tab
-  '/p/static-general.html', // static tab
-  '/p/practice-daily.html', // practice tab
+  'https://iasfromhome.blogspot.com/p/home.html', // home tab
+  'https://iasfromhome.blogspot.com/p/current-samachar.html', // current tab
+  'https://iasfromhome.blogspot.com/p/courses-library.html', // course tab
+  'https://iasfromhome.blogspot.com/p/static-general.html', // static tab
+  'https://iasfromhome.blogspot.com/p/practice-daily.html', // practice tab
   'https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2', // Roboto Condensed
   'https://fonts.gstatic.com/s/anekdevanagari/v14/jVyo7nP0CGrUsxB-QiRgw0NlLaVt_QUAkYxLRoCL23mlh20ZVHOMAWbgHLDtkt9hHEwpjo7FA7Q.woff2', // Anek Devanagari
   'https://fonts.gstatic.com/s/mukta/v16/iJWHBXyXfDDVXbF6iGmc8WD07oB-98o.woff2', // Mukta
