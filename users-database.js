@@ -36,10 +36,10 @@ if (typeof userInfo !== "undefined" && userInfo.userID) {
       userInfo.maxLimit = user.limit;
     })();
   } else {
-    console.log("User not found in usersDatabase.");
+    console.log("User is not registered!.");
   }
 } else {
-  console.log("userInfo is undefined or userID is missing.");
+  console.log("User info is missing!");
 }
 //-- (end) ----->
 
