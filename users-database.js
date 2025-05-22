@@ -23,24 +23,24 @@ const usersDatabase = [
 
 
 /* FIND THE USER INDEX:
-===============================*/
-var userIndex = usersDatabase.findIndex(function(obj) {
-  return obj.id === userInfo.userID;
-});
+===================================*/
+if (typeof userInfo !== "undefined" && userInfo.userID) {
+  var userIndex = usersDatabase.findIndex(function(obj) {
+    return obj.id === userInfo.userID;
+  });
 
-
-/* UPDATE USER INFO INSTANTLY:
-===============================*/
-(function userplanUpdate() {
-  var user = usersDatabase[userIndex];
-  if (user && user.id===userInfo.userID) {
-    userInfo.mentorship = user.plan;
-    userInfo.maxLimit = user.limit;
-    alert(JSON.stringify(userInfo));
+  if (userIndex !== -1) {
+    (function userplanUpdate() {
+      var user = usersDatabase[userIndex];
+      userInfo.mentorship = user.plan;
+      userInfo.maxLimit = user.limit;
+    })();
   } else {
-    console.log("Not Registered!")
+    console.log("User not found in usersDatabase.");
   }
-})();
+} else {
+  console.log("userInfo is undefined or userID is missing.");
+}
 //-- (end) ----->
 
 
