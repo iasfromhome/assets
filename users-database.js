@@ -18,6 +18,12 @@ const usersDatabase = [
     id:"003",
     plan:"Passive!",
     limit:90
+  },
+//00003:_____
+  {
+    id:"004",
+    plan:"Passive!",
+    limit:120
   }
 ];
 
