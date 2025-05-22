@@ -24,7 +24,7 @@ const usersDatabase = [
 
 /* FIND THE USER INDEX:
 ===============================*/
-var userIndex = userDatabase.findIndex(function(obj) {
+var userIndex = usersDatabase.findIndex(function(obj) {
   return obj.id === userInfo.userID;
 });
 
@@ -32,7 +32,7 @@ var userIndex = userDatabase.findIndex(function(obj) {
 /* UPDATE USER INFO INSTANTLY:
 ===============================*/
 (function userplanUpdate() {
-  var user = userDatabase[userIndex];
+  var user = usersDatabase[userIndex];
   if (user && user.id===userInfo.userID) {
     userInfo.mentorship = user.plan;
     userInfo.maxLimit = user.limit;
