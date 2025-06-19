@@ -1,0 +1,26 @@
+{
+  "name": "IAS FROM HOME",
+  "start_url": "https://www.iasfromhome.com/p/home.html",
+  "background_color": "#8A0F42",
+  "theme_color": "#8A0F42",
+  "display": "standalone",
+  "lang": "hi",
+  "scope": "https://www.iasfromhome.com/",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIvu1DYnuInsRLWuZXvK-6Np-JkXyzSWRwRaGJqJy2St2Pjl0BrTgr90HFfhQ9QzB9HHghUdJyETYGlBcRO-WqcTw3L3KgKUCB-qJd52VmRtXQo2LO-sQIPiuSEkzn-TJlu8frQJA0fvq8l-H07an9lF7RMVT7Kg4lJy3CCKcJc8elKRQ/s1600/IAS_Logo_144p.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbxlYHf7Au3Zxw3NQrU3Qof80ZNdGcGsQ7QRwhtE3YXYqHDhZMmZpjxZVr6hZn77LBZRoEMd5tfTvOUsQgMN_S1g9NZ3kExXxme79XAPPA449VLAwgGNXTjNUTf0Z3jGQeubEl-07IPmeGGeKGZ8DsdbkfcoeWRZfrXDoW6a9Yj79WDn4/s1600/IAS_Logo_192p.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUJ5-kwIRAX0RRvhwXKhnmlmmP9pD17pyaCGkSl_WwnAQQxR-2_QaLdlg05ha5_KSWO5_egtkuaBKvog5DUSXxvJQ9d4kEiS5Q-3LoueIlFoBGPSiFyoo_pDOeV5rg2Vdq3ow5eI0mLDkle0hnY6eUM9HYwR2OyYffbn8Psnz4GjGoQVg/s1600/IAS_Logo_512p.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
